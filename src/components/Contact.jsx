@@ -39,10 +39,6 @@ export default function Contact() {
             GitHub
           </a>
           <a className="inline-flex items-center gap-2 rounded-2xl border border-accent/60 px-4 py-2 hover:drop-shadow-[0_0_8px_rgba(255,143,163,0.6)] transition"
-             href="https://linkedin.com/in/damien-kulash-833636237" target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-          <a className="inline-flex items-center gap-2 rounded-2xl border border-accent/60 px-4 py-2 hover:drop-shadow-[0_0_8px_rgba(255,143,163,0.6)] transition"
              href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-jobseeker-profile--profile-one-frontend" target="_blank" rel="noreferrer">
             Indeed
           </a>
