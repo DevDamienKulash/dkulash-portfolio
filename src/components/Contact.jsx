@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ResumePDF from "../assets/Damien-Kulash-Resume.pdf";
 
 export default function Contact() {
   return (
@@ -25,8 +26,12 @@ export default function Contact() {
              href="mailto:damienjkulash@gmail.com">
             damienjkulash@gmail.com
           </a>
-          <a className="inline-flex items-center gap-2 rounded-2xl border border-accent/60 px-4 py-2 hover:drop-shadow-[0_0_8px_rgba(255,143,163,0.6)] transition"
-             href="#" target="_blank" rel="noreferrer">
+          <a
+            className="inline-flex items-center gap-2 rounded-2xl border border-accent/60 px-4 py-2 hover:drop-shadow-[0_0_8px_rgba(255,143,163,0.6)] transition"
+            href={ResumePDF}
+            target="_blank"
+            rel="noreferrer"
+        >
             Resume
           </a>
           <a className="inline-flex items-center gap-2 rounded-2xl border border-accent/60 px-4 py-2 hover:drop-shadow-[0_0_8px_rgba(255,143,163,0.6)] transition"
