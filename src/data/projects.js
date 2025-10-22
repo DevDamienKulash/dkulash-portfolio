@@ -1,6 +1,7 @@
 import geowatch from "../assets/geowatch.jpg"; 
 import financeImg from "../assets/finance.jpg";
 import weatherdeskImg from "../assets/weatherdesk.jpg";
+import ZombieIMG from "../assets/Zombie.jpg";
 
 
 export const projects = [
@@ -31,7 +32,13 @@ export const projects = [
     demo: "#",
     repo: "https://github.com/DevDamienKulash/WeatherDesk",
   },
-  { title: "Coming Soon", placeholder: true },
+  { title: "Zombie Survival Game",
+    blurb:
+      "A fast-paced, top-down zombie shooter built in Unity 6 for WebGL. This project showcases my skills in C# gameplay programming, AI navigation, object pooling, and UI/UX design.",
+    tags: ["C#", "Unity6", "Cinemachine", "Itch.io"],
+    img: ZombieIMG,
+    demo: "https://devdamienkulash.itch.io/web-zombie-game",
+    repo: "https://github.com/DevDamienKulash/zombie-topdown-webgl", },
   { title: "Coming Soon", placeholder: true },
   { title: "Coming Soon", placeholder: true },
 ];
