@@ -11,7 +11,7 @@ export const projects = [
       "Real-time earthquake monitoring web app built with React, TypeScript, and Mapbox GL JS. Clusters events and color-codes by severity for quick risk awareness.",
     tags: ["React", "TypeScript", "Mapbox GL", "API"],
     img: geowatch,  
-    demo: "#",
+    demo: "https://geowatch.netlify.app/",
     repo: "https://github.com/DevDamienKulash/geowatch",
   },
   {
